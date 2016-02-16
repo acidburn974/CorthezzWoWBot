@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F4EA285-7211-410C-B5FA-2F3AE61AEEDB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BotTemplate</RootNamespace>
+    <AssemblyName>BotTemplate</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="fasmdll_managed">
+      <HintPath>..\..\..\..\..\Desktop\Programmieren\Tools\BlackMagic.1.1.source\BlackMagic\bin\Debug\fasmdll_managed.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\Offsets.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistWait.cs" />
+    <Compile Include="Engines\Assist\States\stateTeleToMaster.cs" />
+    <Compile Include="Engines\ZgAssist\ZgAssist.cs" />
+    <Compile Include="Engines\ZgFarm\ZgFarm.cs" />
+    <Compile Include="Engines\Spawner\Spawner.cs" />
+    <Compile Include="Engines\Explorer\Explorer.cs" />
+    <Compile Include="Engines\Fishbot\States\stateFisherWaitForBite.cs" />
+    <Compile Include="Engines\Fishbot\States\stateFisherCastFishing.cs" />
+    <Compile Include="Engines\Fishbot\Fishbot.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindVendor.cs" />
+    <Compile Include="Engines\Create\Create.cs" />
+    <Compile Include="Engines\Assist\FightMovement.cs" />
+    <Compile Include="Engines\Assist\Assist.cs" />
+    <Compile Include="Engines\Assist\AssistContainer.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistBuff.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistDc.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistDeath.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistFight.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistIdle.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistNeedRest.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistVendor.cs" />
+    <Compile Include="Engines\Assist\States\stateAssistWalk.cs" />
+    <Compile Include="Engines\Dupe\Dupe.cs" />
+    <Compile Include="Engines\Master\Master.cs" />
+    <Compile Include="Engines\Master\MasterContainer.cs" />
+    <Compile Include="Engines\Master\MasterFightMovement.cs" />
+    <Compile Include="Engines\Master\MasterFunctions.cs" />
+    <Compile Include="Engines\Master\States\stateMasterWaitForSlaves.cs" />
+    <Compile Include="Engines\Master\States\stateMasterBuff.cs" />
+    <Compile Include="Engines\Master\States\stateMasterDc.cs" />
+    <Compile Include="Engines\Master\States\stateMasterDeath.cs" />
+    <Compile Include="Engines\Master\States\stateMasterEngage.cs" />
+    <Compile Include="Engines\Master\States\stateMasterFight.cs" />
+    <Compile Include="Engines\Master\States\stateMasterGetTarget.cs" />
+    <Compile Include="Engines\Master\States\stateMasterIdle.cs" />
+    <Compile Include="Engines\Master\States\stateMasterLoot.cs" />
+    <Compile Include="Engines\Master\States\stateMasterNeedRest.cs" />
+    <Compile Include="Engines\Master\States\stateMasterUnstuck.cs" />
+    <Compile Include="Engines\Master\States\stateMasterVendor.cs" />
+    <Compile Include="Engines\Master\States\stateMasterWalk.cs" />
+    <Compile Include="Engines\Mail\Mail.cs" />
+    <Compile Include="Engines\Networking\clientConnect.cs" />
+    <Compile Include="Engines\Networking\clientListen.cs" />
+    <Compile Include="Engines\Networking\slaveStates.cs" />
+    <Compile Include="Engines\Networking\socketAcceptClass.cs" />
+    <Compile Include="Engines\Stockades\States\stateStockDc.cs" />
+    <Compile Include="Engines\Stockades\States\stateStockInside.cs" />
+    <Compile Include="Engines\Stockades\States\stateStockOutside.cs" />
+    <Compile Include="Engines\Stockades\StockadesContainer.cs" />
+    <Compile Include="Engines\Stockades\Stockades.cs" />
+    <Compile Include="Engines\Stockades\States\stateStockIdle.cs" />
+    <Compile Include="Forms\InputDialog.cs" />
+    <Compile Include="Forms\Log.cs" />
+    <Compile Include="Forms\objectViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\objectViewerForm.Designer.cs">
+      <DependentUpon>objectViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\teleportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\teleportForm.Designer.cs">
+      <DependentUpon>teleportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\SpellSystem\Buff.cs" />
+    <Compile Include="Helper\SpellSystem\Cooldown.cs" />
+    <Compile Include="Helper\cTimer.cs" />
+    <Compile Include="Engines\Engine.cs" />
+    <Compile Include="Helper\SpellSystem\PetCooldown.cs" />
+    <Compile Include="Helper\SpellSystem\Spell.cs" />
+    <Compile Include="Interact\ChatReader.cs" />
+    <Compile Include="Interact\Exchange.cs" />
+    <Compile Include="Engines\CustomClass\CCManager.cs" />
+    <Compile Include="Engines\CustomClass\CodeCompiler.cs" />
+    <Compile Include="Engines\CustomClass\CustomClass.cs" />
+    <Compile Include="Engines\Data.cs" />
+    <Compile Include="Engines\Grindbot\GrindbotFightMovement.cs" />
+    <Compile Include="Engines\Grindbot\Grindbot.cs" />
+    <Compile Include="Engines\Grindbot\GrindbotFunctions.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindBuff.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindDc.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindDeath.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindEngage.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindFight.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindGetTarget.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindIdle.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindLoot.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindNeedRest.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindUnstuck.cs" />
+    <Compile Include="Engines\Grindbot\States\stateGrindWalk.cs" />
+    <Compile Include="Engines\Grindbot\GrindbotContainer.cs" />
+    <Compile Include="Engines\State.cs" />
+    <Compile Include="Forms\attachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\attachForm.Designer.cs">
+      <DependentUpon>attachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\settingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\settingsForm.Designer.cs">
+      <DependentUpon>settingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\whisperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\whisperForm.Designer.cs">
+      <DependentUpon>whisperForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\BlackMagic\BMInject.cs" />
+    <Compile Include="Helper\BlackMagic\BMMain.cs" />
+    <Compile Include="Helper\BlackMagic\BMMemory.cs" />
+    <Compile Include="Helper\BlackMagic\BMPattern.cs" />
+    <Compile Include="Helper\BlackMagic\BMThread.cs" />
+    <Compile Include="Helper\BlackMagic\Static Classes\SInject.cs" />
+    <Compile Include="Helper\BlackMagic\Static Classes\SMemory.cs" />
+    <Compile Include="Helper\BlackMagic\Static Classes\SPattern.cs" />
+    <Compile Include="Helper\BlackMagic\Static Classes\SProcess.cs" />
+    <Compile Include="Helper\BlackMagic\Static Classes\SThread.cs" />
+    <Compile Include="Helper\BlackMagic\Static Classes\SWindow.cs" />
+    <Compile Include="Helper\BlackMagic\Static Classes\Win32Imports.cs" />
+    <Compile Include="Helper\BmWrapper.cs" />
+    <Compile Include="Helper\ExceptionLogger\ExceptionLogger.cs" />
+    <Compile Include="Helper\ExceptionLogger\TextFileLogger.cs" />
+    <Compile Include="Helper\Tools.cs" />
+    <Compile Include="Helper\Ingame.cs" />
+    <Compile Include="Interact\Calls.cs" />
+    <Compile Include="Interact\GetEndscene.cs" />
+    <Compile Include="Interact\Inject.cs" />
+    <Compile Include="Interact\ObjectManager.cs" />
+    <Compile Include="Interact\Register.cs" />
+    <Compile Include="Objects\BaseObject\gObject.cs" />
+    <Compile Include="Objects\ChatMessage.cs" />
+    <Compile Include="Objects\ContainerObject.cs" />
+    <Compile Include="Objects\ItemObject.cs" />
+    <Compile Include="Objects\GameObject.cs" />
+    <Compile Include="Objects\Location.cs" />
+    <Compile Include="Objects\UnitObject.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\attachForm.resx">
+      <DependentUpon>attachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\objectViewerForm.resx">
+      <DependentUpon>objectViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\settingsForm.resx">
+      <DependentUpon>settingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\teleportForm.resx">
+      <DependentUpon>teleportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\whisperForm.resx">
+      <DependentUpon>whisperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="beep.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

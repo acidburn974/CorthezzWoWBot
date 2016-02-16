@@ -1,0 +1,37 @@
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\bin\Release\beep.wav
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe.config
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.pdb
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.dll
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.pdb
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.attachForm.resources
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.mainForm.resources
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.objectViewerForm.resources
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.settingsForm.resources
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.whisperForm.resources
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Properties.Resources.resources
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.csproj.GenerateResource.Cache
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.exe
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.pdb
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.csprojResolveAssemblyReference.cache
+C:\Users\Ano\Documents\Visual Studio 2010\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.teleportForm.resources
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe.config
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.exe
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.pdb
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\beep.wav
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.pdb
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.dll
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.pdb
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.csprojResolveAssemblyReference.cache
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.attachForm.resources
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.mainForm.resources
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.objectViewerForm.resources
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.settingsForm.resources
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.teleportForm.resources
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Forms.whisperForm.resources
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.Properties.Resources.resources
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.csproj.GenerateResource.Cache
+C:\Users\Kevin\Downloads\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe.config
+C:\Users\Kevin\Downloads\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.exe
+C:\Users\Kevin\Downloads\BotTemplate\BotTemplate\obj\x86\Release\BotTemplate.pdb

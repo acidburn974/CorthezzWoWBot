@@ -1,0 +1,17 @@
+Ariyell Skyshadow
+9924,36|2317,883|1330,787
+142110
+9940.998|2497.415|1317.798
+
+// Horde
+Innkeeper Norman
+1632.62|218.589|-43.1029f
+177044
+1632.62|218.589|-43.1029f
+
+
+
+vendorName
+vendorPos
+mbId
+mbPos

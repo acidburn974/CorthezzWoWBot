@@ -1,0 +1,596 @@
+C:\Program Files (x86)\Microsoft SQL Server\100\Shared\instapi10.dll 2007.0100.1600.022 ((SQL_PreRelease).080709-1414 )
+C:\Windows\syswow64\CFGMGR32.dll 6.1.7601.17621 (win7sp1_gdr.110523-2108)
+C:\Windows\system32\rasman.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\System32\perfos.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+
+Application:       BotTemplate
+Version:           1.0.0.0
+Date:              23.10.2014 16:40:41
+Computer name:     ANO-PC
+User name:         Ano
+OS:                Microsoft Windows NT 6.1.7601 Service Pack 1
+Culture:           de-DE
+Resolution:        {Width=1280, Height=960}
+System up time:    01:31:29.4530000
+App up time:       00:00:05.8413341
+Total memory:      7159Mb
+Available memory:  3770Mb
+
+Exception classes:   
+   System.Exception
+Exception messages: 
+   Assembly failed!  Error code: -109;  Error Line: 6
+Stack Traces:
+   bei Fasm.ManagedFasm.Inject(IntPtr hProcess, UInt32 dwAddress) in c:\documents and settings\brett\my documents\visual studio 2008\projects\fasmdll_managed\fasmdll_managed\fasmdll_managed.cpp:Zeile 167.
+   bei Fasm.ManagedFasm.Inject(UInt32 dwAddress) in c:\documents and settings\brett\my documents\visual studio 2008\projects\fasmdll_managed\fasmdll_managed\fasmdll_managed.cpp:Zeile 174.
+   bei BotTemplate.Interact.Inject.inject(String[] asm, UInt32 Addr) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 117.
+   bei BotTemplate.Interact.Inject.CreateHeartBeatPorter() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 383.
+   bei BotTemplate.Interact.Inject.Apply() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 197.
+   bei BotTemplate.Forms.mainForm.bAttach_Click(Object sender, EventArgs e) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Forms\mainForm.cs:Zeile 93.
+   bei System.Windows.Forms.Control.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   bei System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   bei System.Windows.Forms.Button.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Loaded Modules:
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe 1.0.0.0
+C:\Windows\SysWOW64\ntdll.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\SYSTEM32\MSCOREE.DLL 4.0.40305.0 (Main.040305-0000)
+C:\Windows\syswow64\KERNEL32.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\KERNELBASE.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\ADVAPI32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\msvcrt.dll 7.0.7601.17744 (win7sp1_gdr.111215-1535)
+C:\Windows\SysWOW64\sechost.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\RPCRT4.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\SspiCli.dll 6.1.7601.18526 (win7sp1_gdr.140706-1506)
+C:\Windows\syswow64\CRYPTBASE.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\syswow64\SHLWAPI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\GDI32.dll 6.1.7601.18577 (win7sp1_gdr.140822-1508)
+C:\Windows\syswow64\USER32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\LPK.dll 6.1.7601.18177 (win7sp1_gdr.130605-1534)
+C:\Windows\syswow64\USP10.dll 1.0626.7601.18454 (win7sp1_gdr.140424-1533)
+C:\Windows\system32\IMM32.DLL 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\MSCTF.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6229_none_d089f796442de10e\MSVCR80.dll 8.00.50727.6229
+C:\Windows\syswow64\shell32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\ole32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\profapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\38bf604432e1a30c954b2ee40d6a2d1c\mscorlib.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorjit.dll 2.0.50727.5467 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System\908ba9e296e92b4e14bdc2437edac603\System.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Drawing\836e10dfd0811b303553216f5cb092ef\System.Drawing.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\1453d9e9a4989833ef3db4b22549ba1a\System.Windows.Forms.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\system32\CRYPTSP.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\rsaenh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\RpcRtRemote.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.dll 
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\MSVCR90.dll 9.00.30729.6161
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcm90.dll 9.00.30729.6161
+C:\Windows\assembly\GAC_MSIL\mscorlib.resources\2.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\system32\uxtheme.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\GAC_MSIL\System.resources\2.0.0.0_de_b77a5c561934e089\System.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853\gdiplus.dll 6.1.7601.18455 (win7sp1_gdr.140425-1537)
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll 6.10 (win7_rtm.090713-1255)
+C:\Windows\syswow64\OLEAUT32.DLL 6.1.7601.17676
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Core\e3641fa3359f37ad12c84183ce765093\System.Core.ni.dll 3.5.30729.5420 built by: Win7SP1
+C:\Windows\syswow64\psapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\version.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\ntmarta.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\WLDAP32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\pcwum.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\perfcounter.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\system32\pdh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\MSVCR110_CLR0400.dll 11.00.50938.18408 built by: FX451RTMGREL
+C:\Windows\system32\aspnet_counters.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_perf.dll 4.0.30319.34237 built by: FX452RTMGDR
+C:\Windows\system32\MSVCR120_CLR0400.dll 12.00.51677.34237 built by: FX452RTMGDR
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll 1.1.4322.2502
+C:\Windows\syswow64\USERENV.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\MSVCR71.dll 7.10.3052.4
+C:\Windows\syswow64\WS2_32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\NSI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Program Files (x86)\Microsoft SQL Server\100\Shared\instapi10.dll 2007.0100.1600.022 ((SQL_PreRelease).080709-1414 )
+C:\Windows\syswow64\CFGMGR32.dll 6.1.7601.17621 (win7sp1_gdr.110523-2108)
+C:\Windows\system32\rasman.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\System32\perfos.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\diasymreader.dll 8.0.50727.5483 (Win7SP1GDR.050727-5400)
+
+Application:       BotTemplate
+Version:           1.0.0.0
+Date:              23.10.2014 16:40:46
+Computer name:     ANO-PC
+User name:         Ano
+OS:                Microsoft Windows NT 6.1.7601 Service Pack 1
+Culture:           de-DE
+Resolution:        {Width=1280, Height=960}
+System up time:    01:31:31.4830000
+App up time:       00:00:07.8704501
+Total memory:      7159Mb
+Available memory:  3771Mb
+
+Exception classes:   
+   System.Exception
+Exception messages: 
+   Assembly failed!  Error code: -109;  Error Line: 6
+Stack Traces:
+   bei Fasm.ManagedFasm.Inject(IntPtr hProcess, UInt32 dwAddress) in c:\documents and settings\brett\my documents\visual studio 2008\projects\fasmdll_managed\fasmdll_managed\fasmdll_managed.cpp:Zeile 167.
+   bei Fasm.ManagedFasm.Inject(UInt32 dwAddress) in c:\documents and settings\brett\my documents\visual studio 2008\projects\fasmdll_managed\fasmdll_managed\fasmdll_managed.cpp:Zeile 174.
+   bei BotTemplate.Interact.Inject.inject(String[] asm, UInt32 Addr) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 117.
+   bei BotTemplate.Interact.Inject.CreateHeartBeatPorter() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 383.
+   bei BotTemplate.Interact.Inject.Apply() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 197.
+   bei BotTemplate.Forms.mainForm.bAttach_Click(Object sender, EventArgs e) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Forms\mainForm.cs:Zeile 93.
+   bei System.Windows.Forms.Control.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   bei System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   bei System.Windows.Forms.Button.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Loaded Modules:
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe 1.0.0.0
+C:\Windows\SysWOW64\ntdll.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\SYSTEM32\MSCOREE.DLL 4.0.40305.0 (Main.040305-0000)
+C:\Windows\syswow64\KERNEL32.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\KERNELBASE.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\ADVAPI32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\msvcrt.dll 7.0.7601.17744 (win7sp1_gdr.111215-1535)
+C:\Windows\SysWOW64\sechost.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\RPCRT4.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\SspiCli.dll 6.1.7601.18526 (win7sp1_gdr.140706-1506)
+C:\Windows\syswow64\CRYPTBASE.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\syswow64\SHLWAPI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\GDI32.dll 6.1.7601.18577 (win7sp1_gdr.140822-1508)
+C:\Windows\syswow64\USER32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\LPK.dll 6.1.7601.18177 (win7sp1_gdr.130605-1534)
+C:\Windows\syswow64\USP10.dll 1.0626.7601.18454 (win7sp1_gdr.140424-1533)
+C:\Windows\system32\IMM32.DLL 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\MSCTF.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6229_none_d089f796442de10e\MSVCR80.dll 8.00.50727.6229
+C:\Windows\syswow64\shell32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\ole32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\profapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\38bf604432e1a30c954b2ee40d6a2d1c\mscorlib.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorjit.dll 2.0.50727.5467 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System\908ba9e296e92b4e14bdc2437edac603\System.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Drawing\836e10dfd0811b303553216f5cb092ef\System.Drawing.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\1453d9e9a4989833ef3db4b22549ba1a\System.Windows.Forms.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\system32\CRYPTSP.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\rsaenh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\RpcRtRemote.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.dll 
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\MSVCR90.dll 9.00.30729.6161
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcm90.dll 9.00.30729.6161
+C:\Windows\assembly\GAC_MSIL\mscorlib.resources\2.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\system32\uxtheme.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\GAC_MSIL\System.resources\2.0.0.0_de_b77a5c561934e089\System.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853\gdiplus.dll 6.1.7601.18455 (win7sp1_gdr.140425-1537)
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll 6.10 (win7_rtm.090713-1255)
+C:\Windows\syswow64\OLEAUT32.DLL 6.1.7601.17676
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Core\e3641fa3359f37ad12c84183ce765093\System.Core.ni.dll 3.5.30729.5420 built by: Win7SP1
+C:\Windows\syswow64\psapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\version.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\ntmarta.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\WLDAP32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\pcwum.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\perfcounter.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\system32\pdh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\MSVCR110_CLR0400.dll 11.00.50938.18408 built by: FX451RTMGREL
+C:\Windows\system32\aspnet_counters.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_perf.dll 4.0.30319.34237 built by: FX452RTMGDR
+C:\Windows\system32\MSVCR120_CLR0400.dll 12.00.51677.34237 built by: FX452RTMGDR
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll 1.1.4322.2502
+C:\Windows\syswow64\USERENV.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\MSVCR71.dll 7.10.3052.4
+C:\Windows\syswow64\WS2_32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\NSI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Program Files (x86)\Microsoft SQL Server\100\Shared\instapi10.dll 2007.0100.1600.022 ((SQL_PreRelease).080709-1414 )
+C:\Windows\syswow64\CFGMGR32.dll 6.1.7601.17621 (win7sp1_gdr.110523-2108)
+C:\Windows\system32\rasman.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\System32\perfos.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\diasymreader.dll 8.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Xml\d49908aa93a23c84847b1f8b1b667860\System.Xml.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+
+Application:       BotTemplate
+Version:           1.0.0.0
+Date:              23.10.2014 16:41:57
+Computer name:     ANO-PC
+User name:         Ano
+OS:                Microsoft Windows NT 6.1.7601 Service Pack 1
+Culture:           de-DE
+Resolution:        {Width=1280, Height=960}
+System up time:    01:32:44.0340000
+App up time:       00:00:03.4091950
+Total memory:      7159Mb
+Available memory:  3756Mb
+
+Exception classes:   
+   System.Exception
+Exception messages: 
+   Assembly failed!  Error code: -109;  Error Line: 6
+Stack Traces:
+   bei Fasm.ManagedFasm.Inject(IntPtr hProcess, UInt32 dwAddress) in c:\documents and settings\brett\my documents\visual studio 2008\projects\fasmdll_managed\fasmdll_managed\fasmdll_managed.cpp:Zeile 167.
+   bei Fasm.ManagedFasm.Inject(UInt32 dwAddress) in c:\documents and settings\brett\my documents\visual studio 2008\projects\fasmdll_managed\fasmdll_managed\fasmdll_managed.cpp:Zeile 174.
+   bei BotTemplate.Interact.Inject.inject(String[] asm, UInt32 Addr) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 117.
+   bei BotTemplate.Interact.Inject.CreateHeartBeatPorter() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 383.
+   bei BotTemplate.Interact.Inject.Apply() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 197.
+   bei BotTemplate.Forms.mainForm.bAttach_Click(Object sender, EventArgs e) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Forms\mainForm.cs:Zeile 93.
+   bei System.Windows.Forms.Control.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   bei System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   bei System.Windows.Forms.Button.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Loaded Modules:
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe 1.0.0.0
+C:\Windows\SysWOW64\ntdll.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\SYSTEM32\MSCOREE.DLL 4.0.40305.0 (Main.040305-0000)
+C:\Windows\syswow64\KERNEL32.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\KERNELBASE.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\ADVAPI32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\msvcrt.dll 7.0.7601.17744 (win7sp1_gdr.111215-1535)
+C:\Windows\SysWOW64\sechost.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\RPCRT4.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\SspiCli.dll 6.1.7601.18526 (win7sp1_gdr.140706-1506)
+C:\Windows\syswow64\CRYPTBASE.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\syswow64\SHLWAPI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\GDI32.dll 6.1.7601.18577 (win7sp1_gdr.140822-1508)
+C:\Windows\syswow64\USER32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\LPK.dll 6.1.7601.18177 (win7sp1_gdr.130605-1534)
+C:\Windows\syswow64\USP10.dll 1.0626.7601.18454 (win7sp1_gdr.140424-1533)
+C:\Windows\system32\IMM32.DLL 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\MSCTF.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6229_none_d089f796442de10e\MSVCR80.dll 8.00.50727.6229
+C:\Windows\syswow64\shell32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\ole32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\profapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\38bf604432e1a30c954b2ee40d6a2d1c\mscorlib.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorjit.dll 2.0.50727.5467 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System\908ba9e296e92b4e14bdc2437edac603\System.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Drawing\836e10dfd0811b303553216f5cb092ef\System.Drawing.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\1453d9e9a4989833ef3db4b22549ba1a\System.Windows.Forms.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\system32\CRYPTSP.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\rsaenh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\RpcRtRemote.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.dll 
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\MSVCR90.dll 9.00.30729.6161
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcm90.dll 9.00.30729.6161
+C:\Windows\assembly\GAC_MSIL\mscorlib.resources\2.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\system32\uxtheme.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\GAC_MSIL\System.resources\2.0.0.0_de_b77a5c561934e089\System.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853\gdiplus.dll 6.1.7601.18455 (win7sp1_gdr.140425-1537)
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll 6.10 (win7_rtm.090713-1255)
+C:\Windows\syswow64\OLEAUT32.DLL 6.1.7601.17676
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Core\e3641fa3359f37ad12c84183ce765093\System.Core.ni.dll 3.5.30729.5420 built by: Win7SP1
+C:\Windows\syswow64\psapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\version.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\ntmarta.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\WLDAP32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\pcwum.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\perfcounter.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\system32\pdh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\MSVCR110_CLR0400.dll 11.00.50938.18408 built by: FX451RTMGREL
+C:\Windows\system32\aspnet_counters.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_perf.dll 4.0.30319.34237 built by: FX452RTMGDR
+C:\Windows\system32\MSVCR120_CLR0400.dll 12.00.51677.34237 built by: FX452RTMGDR
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll 1.1.4322.2502
+C:\Windows\syswow64\USERENV.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\MSVCR71.dll 7.10.3052.4
+C:\Windows\syswow64\WS2_32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\NSI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Program Files (x86)\Microsoft SQL Server\100\Shared\instapi10.dll 2007.0100.1600.022 ((SQL_PreRelease).080709-1414 )
+C:\Windows\syswow64\CFGMGR32.dll 6.1.7601.17621 (win7sp1_gdr.110523-2108)
+C:\Windows\system32\rasman.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\System32\perfos.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\diasymreader.dll 8.0.50727.5483 (Win7SP1GDR.050727-5400)
+
+Application:       BotTemplate
+Version:           1.0.0.0
+Date:              23.10.2014 16:42:05
+Computer name:     ANO-PC
+User name:         Ano
+OS:                Microsoft Windows NT 6.1.7601 Service Pack 1
+Culture:           de-DE
+Resolution:        {Width=1280, Height=960}
+System up time:    01:32:50.6650000
+App up time:       00:00:10.0395742
+Total memory:      7159Mb
+Available memory:  3757Mb
+
+Exception classes:   
+   System.Exception
+Exception messages: 
+   Assembly failed!  Error code: -109;  Error Line: 6
+Stack Traces:
+   bei Fasm.ManagedFasm.Inject(IntPtr hProcess, UInt32 dwAddress) in c:\documents and settings\brett\my documents\visual studio 2008\projects\fasmdll_managed\fasmdll_managed\fasmdll_managed.cpp:Zeile 167.
+   bei Fasm.ManagedFasm.Inject(UInt32 dwAddress) in c:\documents and settings\brett\my documents\visual studio 2008\projects\fasmdll_managed\fasmdll_managed\fasmdll_managed.cpp:Zeile 174.
+   bei BotTemplate.Interact.Inject.inject(String[] asm, UInt32 Addr) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 117.
+   bei BotTemplate.Interact.Inject.CreateHeartBeatPorter() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 383.
+   bei BotTemplate.Interact.Inject.Apply() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\Inject.cs:Zeile 197.
+   bei BotTemplate.Forms.mainForm.bAttach_Click(Object sender, EventArgs e) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Forms\mainForm.cs:Zeile 93.
+   bei System.Windows.Forms.Control.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   bei System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   bei System.Windows.Forms.Button.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Loaded Modules:
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe 1.0.0.0
+C:\Windows\SysWOW64\ntdll.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\SYSTEM32\MSCOREE.DLL 4.0.40305.0 (Main.040305-0000)
+C:\Windows\syswow64\KERNEL32.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\KERNELBASE.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\ADVAPI32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\msvcrt.dll 7.0.7601.17744 (win7sp1_gdr.111215-1535)
+C:\Windows\SysWOW64\sechost.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\RPCRT4.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\SspiCli.dll 6.1.7601.18526 (win7sp1_gdr.140706-1506)
+C:\Windows\syswow64\CRYPTBASE.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\syswow64\SHLWAPI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\GDI32.dll 6.1.7601.18577 (win7sp1_gdr.140822-1508)
+C:\Windows\syswow64\USER32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\LPK.dll 6.1.7601.18177 (win7sp1_gdr.130605-1534)
+C:\Windows\syswow64\USP10.dll 1.0626.7601.18454 (win7sp1_gdr.140424-1533)
+C:\Windows\system32\IMM32.DLL 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\MSCTF.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6229_none_d089f796442de10e\MSVCR80.dll 8.00.50727.6229
+C:\Windows\syswow64\shell32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\ole32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\profapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\38bf604432e1a30c954b2ee40d6a2d1c\mscorlib.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorjit.dll 2.0.50727.5467 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System\908ba9e296e92b4e14bdc2437edac603\System.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Drawing\836e10dfd0811b303553216f5cb092ef\System.Drawing.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\1453d9e9a4989833ef3db4b22549ba1a\System.Windows.Forms.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\system32\CRYPTSP.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\rsaenh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\RpcRtRemote.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.dll 
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\MSVCR90.dll 9.00.30729.6161
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcm90.dll 9.00.30729.6161
+C:\Windows\assembly\GAC_MSIL\mscorlib.resources\2.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\system32\uxtheme.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\GAC_MSIL\System.resources\2.0.0.0_de_b77a5c561934e089\System.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853\gdiplus.dll 6.1.7601.18455 (win7sp1_gdr.140425-1537)
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll 6.10 (win7_rtm.090713-1255)
+C:\Windows\syswow64\OLEAUT32.DLL 6.1.7601.17676
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Core\e3641fa3359f37ad12c84183ce765093\System.Core.ni.dll 3.5.30729.5420 built by: Win7SP1
+C:\Windows\syswow64\psapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\version.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\ntmarta.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\WLDAP32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\pcwum.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\perfcounter.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\system32\pdh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\MSVCR110_CLR0400.dll 11.00.50938.18408 built by: FX451RTMGREL
+C:\Windows\system32\aspnet_counters.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_perf.dll 4.0.30319.34237 built by: FX452RTMGDR
+C:\Windows\system32\MSVCR120_CLR0400.dll 12.00.51677.34237 built by: FX452RTMGDR
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll 1.1.4322.2502
+C:\Windows\syswow64\USERENV.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\MSVCR71.dll 7.10.3052.4
+C:\Windows\syswow64\WS2_32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\NSI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Program Files (x86)\Microsoft SQL Server\100\Shared\instapi10.dll 2007.0100.1600.022 ((SQL_PreRelease).080709-1414 )
+C:\Windows\syswow64\CFGMGR32.dll 6.1.7601.17621 (win7sp1_gdr.110523-2108)
+C:\Windows\system32\rasman.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\System32\perfos.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\diasymreader.dll 8.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Xml\d49908aa93a23c84847b1f8b1b667860\System.Xml.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+
+Application:       BotTemplate
+Version:           1.0.0.0
+Date:              02.01.2015 19:00:40
+Computer name:     ANO-PC
+User name:         Ano
+OS:                Microsoft Windows NT 6.1.7601 Service Pack 1
+Culture:           de-DE
+Resolution:        {Width=1280, Height=960}
+System up time:    08:48:33.9790000
+App up time:       00:00:30.8074457
+Total memory:      7159Mb
+Available memory:  4051Mb
+
+Exception classes:   
+   System.ArgumentException
+Exception messages: 
+   Es wird kein Prozess mit der ID 5936 ausgeführt.
+Stack Traces:
+   bei System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   bei System.Diagnostics.Process.GetProcessById(Int32 processId)
+   bei BotTemplate.Interact.ObjectManager.IsWowCrashed() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\ObjectManager.cs:Zeile 462.
+   bei BotTemplate.Forms.mainForm.button3_Click(Object sender, EventArgs e) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Forms\mainForm.cs:Zeile 828.
+   bei System.Windows.Forms.Control.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   bei System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   bei System.Windows.Forms.Button.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Loaded Modules:
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe 1.0.0.0
+C:\Windows\SysWOW64\ntdll.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\SYSTEM32\MSCOREE.DLL 4.0.40305.0 (Main.040305-0000)
+C:\Windows\syswow64\KERNEL32.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\KERNELBASE.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\ADVAPI32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\msvcrt.dll 7.0.7601.17744 (win7sp1_gdr.111215-1535)
+C:\Windows\SysWOW64\sechost.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\RPCRT4.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\SspiCli.dll 6.1.7601.18637 (win7sp1_gdr.141013-1517)
+C:\Windows\syswow64\CRYPTBASE.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\syswow64\SHLWAPI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\GDI32.dll 6.1.7601.18577 (win7sp1_gdr.140822-1508)
+C:\Windows\syswow64\USER32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\LPK.dll 6.1.7601.18177 (win7sp1_gdr.130605-1534)
+C:\Windows\syswow64\USP10.dll 1.0626.7601.18454 (win7sp1_gdr.140424-1533)
+C:\Windows\system32\IMM32.DLL 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\MSCTF.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6229_none_d089f796442de10e\MSVCR80.dll 8.00.50727.6229
+C:\Windows\syswow64\shell32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\ole32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\profapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\38bf604432e1a30c954b2ee40d6a2d1c\mscorlib.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorjit.dll 2.0.50727.5467 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System\908ba9e296e92b4e14bdc2437edac603\System.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Drawing\836e10dfd0811b303553216f5cb092ef\System.Drawing.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\1453d9e9a4989833ef3db4b22549ba1a\System.Windows.Forms.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\system32\CRYPTSP.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\rsaenh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\RpcRtRemote.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.dll 
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\MSVCR90.dll 9.00.30729.6161
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcm90.dll 9.00.30729.6161
+C:\Windows\assembly\GAC_MSIL\mscorlib.resources\2.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\system32\uxtheme.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\GAC_MSIL\System.resources\2.0.0.0_de_b77a5c561934e089\System.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853\gdiplus.dll 6.1.7601.18455 (win7sp1_gdr.140425-1537)
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll 6.10 (win7_rtm.090713-1255)
+C:\Windows\syswow64\OLEAUT32.DLL 6.1.7601.18640
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Core\e3641fa3359f37ad12c84183ce765093\System.Core.ni.dll 3.5.30729.5420 built by: Win7SP1
+C:\Windows\syswow64\psapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\version.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\ntmarta.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\WLDAP32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\pcwum.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\perfcounter.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\system32\pdh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\MSVCR110_CLR0400.dll 11.00.50938.18408 built by: FX451RTMGREL
+C:\Windows\system32\aspnet_counters.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_perf.dll 4.0.30319.34237 built by: FX452RTMGDR
+C:\Windows\system32\MSVCR120_CLR0400.dll 12.00.51677.34237 built by: FX452RTMGDR
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll 1.1.4322.2502
+C:\Windows\syswow64\USERENV.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\MSVCR71.dll 7.10.3052.4
+C:\Windows\syswow64\WS2_32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\NSI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Program Files (x86)\Microsoft SQL Server\100\Shared\instapi10.dll 2007.0100.1600.022 ((SQL_PreRelease).080709-1414 )
+C:\Windows\syswow64\CFGMGR32.dll 6.1.7601.17621 (win7sp1_gdr.110523-2108)
+C:\Windows\system32\rasman.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\System32\perfos.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\diasymreader.dll 8.0.50727.5483 (Win7SP1GDR.050727-5400)
+
+Application:       BotTemplate
+Version:           1.0.0.0
+Date:              02.01.2015 19:00:39
+Computer name:     ANO-PC
+User name:         Ano
+OS:                Microsoft Windows NT 6.1.7601 Service Pack 1
+Culture:           de-DE
+Resolution:        {Width=1280, Height=960}
+System up time:    08:48:33.9790000
+App up time:       00:00:30.8074457
+Total memory:      7159Mb
+Available memory:  4051Mb
+
+Exception classes:   
+   System.ArgumentException
+Exception messages: 
+   Es wird kein Prozess mit der ID 5936 ausgeführt.
+Stack Traces:
+   bei System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   bei System.Diagnostics.Process.GetProcessById(Int32 processId)
+   bei BotTemplate.Interact.ObjectManager.IsWowCrashed() in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Interact\ObjectManager.cs:Zeile 462.
+   bei BotTemplate.Forms.mainForm.button3_Click(Object sender, EventArgs e) in c:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\Forms\mainForm.cs:Zeile 828.
+   bei System.Windows.Forms.Control.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnClick(EventArgs e)
+   bei System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   bei System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   bei System.Windows.Forms.Button.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Loaded Modules:
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\BotTemplate.exe 1.0.0.0
+C:\Windows\SysWOW64\ntdll.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\SYSTEM32\MSCOREE.DLL 4.0.40305.0 (Main.040305-0000)
+C:\Windows\syswow64\KERNEL32.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\KERNELBASE.dll 6.1.7601.18015 (win7sp1_gdr.121129-1432)
+C:\Windows\syswow64\ADVAPI32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\msvcrt.dll 7.0.7601.17744 (win7sp1_gdr.111215-1535)
+C:\Windows\SysWOW64\sechost.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\RPCRT4.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\SspiCli.dll 6.1.7601.18637 (win7sp1_gdr.141013-1517)
+C:\Windows\syswow64\CRYPTBASE.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\syswow64\SHLWAPI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\GDI32.dll 6.1.7601.18577 (win7sp1_gdr.140822-1508)
+C:\Windows\syswow64\USER32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\LPK.dll 6.1.7601.18177 (win7sp1_gdr.130605-1534)
+C:\Windows\syswow64\USP10.dll 1.0626.7601.18454 (win7sp1_gdr.140424-1533)
+C:\Windows\system32\IMM32.DLL 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\MSCTF.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6229_none_d089f796442de10e\MSVCR80.dll 8.00.50727.6229
+C:\Windows\syswow64\shell32.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Windows\syswow64\ole32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\profapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\38bf604432e1a30c954b2ee40d6a2d1c\mscorlib.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorjit.dll 2.0.50727.5467 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System\908ba9e296e92b4e14bdc2437edac603\System.ni.dll 2.0.50727.5485 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Drawing\836e10dfd0811b303553216f5cb092ef\System.Drawing.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\1453d9e9a4989833ef3db4b22549ba1a\System.Windows.Forms.ni.dll 2.0.50727.5483 (Win7SP1GDR.050727-5400)
+C:\Windows\system32\CRYPTSP.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\rsaenh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\RpcRtRemote.dll 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+C:\Users\Ano\Documents\Visual Studio 2013\Projects\BotTemplate\BotTemplate\bin\Release\fasmdll_managed.dll 
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\MSVCR90.dll 9.00.30729.6161
+C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcm90.dll 9.00.30729.6161
+C:\Windows\assembly\GAC_MSIL\mscorlib.resources\2.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\system32\uxtheme.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\assembly\GAC_MSIL\System.resources\2.0.0.0_de_b77a5c561934e089\System.resources.dll 2.0.50727.5420 (Win7SP1.050727-5400)
+C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853\gdiplus.dll 6.1.7601.18455 (win7sp1_gdr.140425-1537)
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll 6.10 (win7_rtm.090713-1255)
+C:\Windows\syswow64\OLEAUT32.DLL 6.1.7601.18640
+C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Core\e3641fa3359f37ad12c84183ce765093\System.Core.ni.dll 3.5.30729.5420 built by: Win7SP1
+C:\Windows\syswow64\psapi.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\version.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\ntmarta.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\WLDAP32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\pcwum.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\perfcounter.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\system32\pdh.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\system32\MSVCR110_CLR0400.dll 11.00.50938.18408 built by: FX451RTMGREL
+C:\Windows\system32\aspnet_counters.dll 4.0.30319.18408 built by: FX451RTMGREL
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_perf.dll 4.0.30319.34237 built by: FX452RTMGDR
+C:\Windows\system32\MSVCR120_CLR0400.dll 12.00.51677.34237 built by: FX452RTMGDR
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll 1.1.4322.2502
+C:\Windows\syswow64\USERENV.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v1.1.4322\MSVCR71.dll 7.10.3052.4
+C:\Windows\syswow64\WS2_32.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\syswow64\NSI.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Program Files (x86)\Microsoft SQL Server\100\Shared\instapi10.dll 2007.0100.1600.022 ((SQL_PreRelease).080709-1414 )
+C:\Windows\syswow64\CFGMGR32.dll 6.1.7601.17621 (win7sp1_gdr.110523-2108)
+C:\Windows\system32\rasman.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\System32\perfos.dll 6.1.7600.16385 (win7_rtm.090713-1255)
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\diasymreader.dll 8.0.50727.5483 (Win7SP1GDR.050727-5400)
